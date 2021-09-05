@@ -1,0 +1,172 @@
+Object is the physical and logical entity
+Class is a logical entity only.
+
+object -> entity that has state and behavior
+
+physical -> Tangible (Sofa, Chair)
+Logical -> Intagible (Banking System, Time)
+
+Characteristics of Obj: *selfCode*
+State: represents the data (value) of an object.
+[What is it now]
+
+Behavior: represents the behavior (functionality) of an object such as deposit, withdraw, etc.
+[What it does to itself]
+
+Identity: An object identity is used internally by the JVM to identify each object uniquely.
+[<self>]
+
+An object is an instance of a class.
+
+Contents of a CLass: *selfCode*
+1.	Fields
+2.	Methods
+3.	Constructors
+4.	Blocks
+5.	Nested class and interface
+
+The new keyword is used to allocate memory at runtime. All objects get memory in Heap memory area.
+
+We can have multiple classes in different Java files or single Java file. 
+file name with the class name which has main() method.
+
+There are 3 ways to initialize object in Java. *code*
+1.	By reference variable <TestStudent3>
+s1.name="Sonoo";
+2.	By method <TestStudent4>
+void insertRecord(int r, String n){  
+  rollno=r;  
+  name=n;  
+ }
+3.	By constructor
+
+There are many ways to create an object in java. They are:
+
+By new keyword
+By newInstance() method
+By clone() method
+By deserialization
+By factory method etc. ...LAterz
+
+
+anonymous object -> No Name
+class Calculation{  
+ void print(int  n){	// DO stuff	} 
+}  
+public static void main(String args[]){  
+new Calculation().print(5);//calling method with anonymous object  
+}  
+}  
+
+multiple objects -> int a,b;
+__
+**METHODS** Show Image => QP immportant
+access specifiers
+1.	Public
+2.	Private
+3.	Protected
+4.	Default
+*see in ingeritance
+Static Method and Members *code*
+a method that belongs to a "class" rather than an instance of a class
+static method -> the keyword static before the method name.
+
+can call it without creating an object. 
+It can access static data members and also change the value of it.
+Used to create an instance method.
+It is invoked by using the class name.
+The best example of a static method is the main() method.
+
+instance method -> non static methods
+invoking the instance method, it is necessary to create an object of its class
+
+Types of Instance methods: 
+Accessor Method -> gets
+Mutator Method -> sets
+
+Abstract Method *code* => Explain Importance further, template of the class for subclass, this must br defined.
+							When a class doesn't know what sub-classes will be required to create
+The method that does not has method body 
+Without an implementation
+declared in the abstract class.
+It means the class itself must be abstract if it has abstract method.
+
+factory method -> just kow name. maybe see in design patterns (Peethify that u know abt DP and give example)
+
+**CONSTRUCTORS**
+Returns current class instance (obj)
+starting a thread, calling a method. 
+can perform any operation in the constructor as you perform method.
+block of codes called when an instance of the class is created.
+At the time of calling , memory for the object is allocated (malloc)
+Java compiler provides a default constructor by default
+
+
+Types Based on Parameters -> no-arg constructor -> NO Parameters, (but inside initialize the members), and parameterized constructor.
+
+ Rules :
+Name same as its class name
+no explicit return type
+cannot be abstract, static, final, and synchronized
+
+Cons Overloading : Same as method Overloading
+
+Copy Constructors : no copy constructor in Java
+Alternatives :
+By constructor <Student6>
+By assigning the values of one object into another 
+By clone() method of Object class
+
+**STATIC KEYWORD**
+variables, methods, blocks and nested classes.
+
+VARIABLE: <Counter2>
+to refer to the common property of all objects 
+not unique for each object  (company name) (college name of students)
+gets memory only once in the class area at the time of class loading. All object refers this location.
+memory efficient
+
+METHOD: <TestStaticMethod>
+Refer Above
+static method can access static data member and can change the value of it. Instance cannot
+
+Restriction
+can not use non static data member(Instance) or call non-static method directly.
+this(not needed) and super cannot be used in static context.
+
+Why is the Java main method static?
+Obj creation not required
+If it were a non-static method, JVM creates an object first then call main()
+method that will lead the problem of extra memory allocation.
+
+**this KEYWORD**
+
+1.	this can be used to refer current class instance variable.
+		ambiguity between the instance variables and parameters => <TestThis1>
+
+2.	this can be used to invoke current class method (implicitly)
+		void m(){System.out.println("hello m");}  
+		void n(){  
+			System.out.println("hello n");  
+			//m();//same as this.m()  
+			this.m();  
+		}  
+
+3.	this() can be used to invoke current class constructor.
+		A(int x){  
+			this();// Do other stuff
+		} 
+
+		constructor chaining => TestThis7
+
+4.	this can be passed as an argument in the method call.
+		event handling or where we have to provide reference of a class to another one.
+		It is used to reuse one object in many methods.
+		Methods which take Objects as parameters
+
+5.	this can be passed as argument in the constructor call.
+		use one object in multiple classes => <A4>
+6.	this can be used to return the current class instance from the method.
+		(Can use anonymous object instead) => <Test1>
+
+IDENTITY => <A5>

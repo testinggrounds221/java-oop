@@ -1,0 +1,10 @@
+1	START
+2	initialise n <- 1000, flag <- true
+3	loop j from 2 to n-1:
+		loop i from 2 to j-1:
+			if i divides j:
+				flag <- false
+				break the inner loop
+		if flag is true : print j is prime
+		set flag as true	
+4	END

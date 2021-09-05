@@ -1,0 +1,32 @@
+mechanism in which 
+one Classs acquires all the properties and behaviors of a parent Class
+reuse methods and fields of the parent class
+add new methods and fields in your current class also
+
+Ippa, subclass extende panuchuna kita thatta adhu super class ave marirum (prop,beh),
+ unless explicitly it differentiates itslef.
+
+represents the IS-A relationship which is also known as a parent-child relationship. 
+Programmer		IS-A	Employee
+(Sub class)				(Super Class)
+(Child class)			(Parent Class)
+(Extended class)		(Base Class)
+Programmer is a type of Employee
+
+TYPES =>	single, multilevel and hierarchical (IN JAVA)
+			multiple(extend more than 1) and hybrid(descendant of multiple) (not directly but through interface)
+
+single : class inherits another class <TestInheritance.java>
+multilevel : a chain of inheritance <TestInheritance2.java>
+hierarchical : When two or more classes inherits a single class <TestInheritance3.java>
+
+Why multiple inheritance is not supported in java?
+To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
+Consider a scenario where A, B, and C are three classes.
+The C class inherits A and B classes.
+If A and B classes have the same method and you call it from child class object,
+there will be ambiguity to call the method of A or B class.
+
+MENTION super()
+
+See Aggregation (check wid raks) https://www.javatpoint.com/aggregation-in-java

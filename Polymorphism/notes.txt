@@ -1,0 +1,71 @@
+** Method Overloading ** => compile-time polymorphism or static or early binding
+							an object is bound with their functionality at the compile-time
+Multiple methods having same name but
+different in parameters
+
+Perform only one operation,
+having same name of the methods
+increases the readability of the program.	(Add -> (float,int) (double,int)) 
+											(Ass (int,int) (int,int,int))
+How ??
+By changing number of arguments <TestOverloading1>
+By changing the data type <TestOverloading2>
+not possible by changing the return type of the method 
+	Consider	static int add(int a,int b){return a+b;}  
+				static double add(int a,int b){return a+b;}  
+				Adder.add(11,11) // Which one to Consider ? Both take int as parameters
+*Type Promotion*
+If no matching datatype is found
+One type is promoted to another implicitly 
+<OverloadingCalculation1>
+<OverloadingCalculation3>
+
+** Method OverRiding ** => runtime polymorphism or dynamic or late binding
+Subclass has the same method as declared in the parent class
+
+subclass provides the specific (For it's own purposes) implementation of the method
+that has been declared by one of its parent clas
+<Bike2>
+Rules : 
+The method must have the same name as in the parent class
+The method must have the same parameter as in the parent class.
+Must be an inherited
+
+A static method cannot be overridden, also main method
+proved by runtime polymorphism => Laterzz
+Why ?
+Static method is bound with class whereas
+instance method is bound with an object.
+Static belongs to the class area,
+instance belongs to the heap area.
+
+Subclass method may override Super class method by returning covariant datatype of Super class <B1.java>
+If we return object, the object should be of subclass type not of super class type
+Avoids ClassCastException
+
+(Java doesn't allow the return type-based overloading,
+but JVM always allows return type-based overloading.
+JVM uses the full signature of a method for lookup/resolution.) Dont stress
+
+https://www.javatpoint.com/method-overloading-vs-method-overriding-in-java 
+
+overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
+<overRestriction>
+
+**Super Keyword**
+reference variable which is used to refer immediate parent class object
+Whenever instance of subclass is creates, an instance of parent class is created implicitly
+<instanceSuper>
+
+Uses:
+to refer immediate parent class instance variable. => <TestSuper1>
+to invoke immediate parent class method. => <TestSuper1>
+super() can be used to invoke immediate parent class constructor. 
+
+default constructor is provided by compiler automatically
+it also adds super() as the first statement.
+
+real use => copy cons => <TestSuper5>
+
+**Instance initializer block**
+

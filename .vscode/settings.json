@@ -1,0 +1,9 @@
+{
+  "java.project.sourcePaths": [
+    "refs",
+    "learn",
+    "Objects",
+    "Inheritance",
+    "Polymorphism"
+  ]
+}
