@@ -1,3 +1,4 @@
+
 //Java Program to illustrate the use of Java Method Overriding  
 //Creating a parent class.  
 class Vehicle {
@@ -16,7 +17,9 @@ public class Bike2 extends Vehicle {
 	}
 
 	public static void main(String args[]) {
-		Bike2 obj = new Bike2();// creating object
+
+		Bike2 obj = new Bike2();// Declaration
 		obj.run();// calling method => "Bike is running safely" rather than "Vehicle is running"
+		System.out.println(obj);
 	}
 }

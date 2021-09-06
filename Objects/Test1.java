@@ -1,10 +1,12 @@
 class A {
+	int a;
+
 	A getA() {
 		return this;
 	}
 
 	void msg() {
-		System.out.println("Hello java");
+		System.out.println("Hello java" + a);
 	}
 }
 

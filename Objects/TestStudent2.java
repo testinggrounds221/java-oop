@@ -5,7 +5,8 @@ class StudentZ {
 
 class TestStudent2 {
 	public static void main(String args[]) {
-		StudentZ s1 = new StudentZ();
+		StudentZ s1 = new StudentZ(); // Declaration
+
 		s1.id = 101;
 		s1.name = "Sonoo";
 		System.out.println(s1.id + " " + s1.name);// printing members with a white space

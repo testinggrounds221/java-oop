@@ -6,6 +6,69 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch ex1",
+		"request": "launch",
+		"mainClass": "ex1",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Student6",
+		"request": "launch",
+		"mainClass": "Student6",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch arithmetic",
+		"request": "launch",
+		"mainClass": "arithmetic",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch untitled",
+		"request": "launch",
+		"mainClass": "untitled",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Car",
+		"request": "launch",
+		"mainClass": "Car",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch TestStudent4",
+		"request": "launch",
+		"mainClass": "TestStudent4",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Bike2",
+		"request": "launch",
+		"mainClass": "Bike2",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch A4",
+		"request": "launch",
+		"mainClass": "A4",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch B",
+		"request": "launch",
+		"mainClass": "B",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch instanceSuper",
 		"request": "launch",
 		"mainClass": "instanceSuper",

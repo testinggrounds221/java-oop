@@ -1,3 +1,4 @@
+
 public class Student6 {
 	int id;
 	String name;
@@ -16,6 +17,14 @@ public class Student6 {
 
 	void display() {
 		System.out.println(id + " " + name);
+		int[] arr = { 1, 2, 3, 4 };
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]);
+
+		}
+		System.out.print(arr.length);
+		System.out.print(arr[0]);
+
 	}
 
 	public static void main(String args[]) {

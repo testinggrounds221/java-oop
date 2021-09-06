@@ -16,6 +16,7 @@ public class TestStudent4 {
 	public static void main(String args[]) {
 		StudentA s1 = new StudentA();
 		StudentA s2 = new StudentA();
+
 		s1.insertRecord(111, "Karan");
 		s2.insertRecord(222, "Aryan");
 		s1.displayInformation();

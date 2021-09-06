@@ -7,6 +7,7 @@ physical -> Tangible (Sofa, Chair)
 Logical -> Intagible (Banking System, Time)
 
 Characteristics of Obj: *selfCode*
+
 State: represents the data (value) of an object.
 [What is it now]
 
@@ -19,7 +20,7 @@ Identity: An object identity is used internally by the JVM to identify each obje
 An object is an instance of a class.
 
 Contents of a CLass: *selfCode*
-1.	Fields
+1.	Fields -> variable
 2.	Methods
 3.	Constructors
 4.	Blocks
@@ -73,7 +74,7 @@ static method -> the keyword static before the method name.
 
 can call it without creating an object. 
 It can access static data members and also change the value of it.
-Used to create an instance method.
+can be accessed witout creating an instance method.
 It is invoked by using the class name.
 The best example of a static method is the main() method.
 
@@ -95,7 +96,7 @@ factory method -> just kow name. maybe see in design patterns (Peethify that u k
 
 **CONSTRUCTORS**
 Returns current class instance (obj)
-starting a thread, calling a method. 
+used to starting a thread, calling a method. 
 can perform any operation in the constructor as you perform method.
 block of codes called when an instance of the class is created.
 At the time of calling , memory for the object is allocated (malloc)
