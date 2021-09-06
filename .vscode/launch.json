@@ -6,6 +6,13 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch Area",
+		"request": "launch",
+		"mainClass": "Area",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch ex1",
 		"request": "launch",
 		"mainClass": "ex1",

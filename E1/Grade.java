@@ -34,6 +34,49 @@ public class Grade {
 		overall_grade = ' ';
 	}
 
+	float calculateGPA() {
+		float gpa = 0.0f;
+		int sumCTimesGP = 0;
+		int sumc = 0;
+		for (int i = 0; i < this.no_crs; i++) {
+			sumCTimesGP += credits[i] * getGradePoint(sub_grades[i]);
+			sumc += credits[i];
+		}
+		gpa = sumCTimesGP / sumc;
+		return gpa;
+	}
+
+	int getGradePoint(char c) {
+		int gp = 0;
+
+		switch (c) {
+			case 'S':
+				gp = 10;
+				break;
+			case 'A':
+				gp = 9;
+				break;
+			case 'B':
+				gp = 8;
+				break;
+			case 'C':
+				gp = 7;
+				break;
+			case 'D':
+				gp = 6;
+				break;
+			case 'U':
+				gp = 0;
+				break;
+
+			default:
+				System.out.println("No Grade point");
+				break;
+		}
+
+		return gp;
+	}
+
 	void getInput() {
 		Scanner sc = new Scanner(System.in);
 		// System.out.println("Enter name : ");
@@ -46,6 +89,9 @@ public class Grade {
 		for (int i = 0; i < this.no_crs; i++) {
 			System.out.println("Enter Mark : ");
 			this.sub_marks[i] = sc.nextInt();
+			System.out.println("Enter Credit : ");
+			this.credits[i] = sc.nextInt();
+
 		}
 		for (int i = 0; i < this.no_crs; i++) {
 			if ((90 < this.sub_marks[i]) && (this.sub_marks[i] < 100))
@@ -79,7 +125,13 @@ public class Grade {
 	}
 
 	public static void main(String[] args) {
-		Grade g = new Grade(5);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Num Subjects : ");
+		int no_crs = sc.nextInt();
+		Grade g = new Grade(no_crs);
+
 		g.getInput();
+		System.out.println(g.calculateGPA());
+		sc.close();
 	}
 }
