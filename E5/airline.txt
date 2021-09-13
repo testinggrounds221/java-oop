@@ -1,0 +1,31 @@
+Define class TicketReservation:
+	name <- name of Flight
+	flight_no <- flight number of Flight
+	
+	getDistFare(int fpt, int tpt):
+		return (tpt - fpt) * 100
+
+	getDistFare(String frmStat, String toStat):
+		fpt = search frmStat
+		tpt = search toStat
+		return getDistFare(fpt,tpt)
+
+	calcFare():
+		distFare <- Fare for Distance
+		classFare <- Fare for Class
+		fare <- distFare + classFare
+	
+	payment():
+		Get Username from user
+		Get Password from user
+		Validate and confirm payment
+
+	printTicket():
+		print Air Ticket,Departure, From airport, To airport,Class,No,Fare of Ticket
+
+	main:
+		stop <- false
+		ticket <- new TicketReservation object
+		gets input and Validate
+		calculate fare
+		print Fare

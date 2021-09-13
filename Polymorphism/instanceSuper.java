@@ -16,6 +16,6 @@ public class instanceSuper extends midGuard {
 	}
 
 	public static void main(String[] args) {
-		instanceSuper is = new instanceSuper();
+		// instanceSuper is = new instanceSuper();
 	}
 }

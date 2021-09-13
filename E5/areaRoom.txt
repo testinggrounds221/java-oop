@@ -1,0 +1,10 @@
+Define Class AreaCalc:
+	calculateArea(l,b) => returns l*b
+	printArea(l,b)=> Prints area from calculateArea
+
+Define AreaRoom that extends AreaCalc:
+	printArea() => Prints area of area from calculateArea
+
+main function:
+	create object of AreaRoom
+	Get inputs from user and print area of AreaRoom

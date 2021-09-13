@@ -1,0 +1,13 @@
+Define abstract class Shape:
+	l <- First Integer
+	b <- Second Integer
+
+	printArea() <- function to print Area
+
+Define Class Rectangle, Triangle and Circle which extends Shape class(abstract) containing printArea method.
+Input dimensions shapes and call printArea
+
+Main function:
+	Create object for shapes
+	Call printArea() method for all shapes
+Stop

@@ -1,0 +1,22 @@
+Define Class Ward:
+	name <- name of Student
+	reg_no <- Regn number of Student
+	gender <- gender of Student
+
+Deifne Class StudentGrade that extends Ward:
+	sub_marks		
+	total
+	overall_grade
+	no_crs
+
+	calculateGPA:
+		gpa <- Sum of Credits * GradePoint / Sum of Credits
+	
+	main function:
+		sc <- Scanner Object
+		number_of_courses <- Get input from users
+		g <- StudentGrade Object with no_crs
+
+		get input and store in object g
+		calculateGPA in g object and display
+		

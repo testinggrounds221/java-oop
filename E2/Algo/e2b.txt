@@ -1,0 +1,9 @@
+read <- BufferedReader Object of InputStreamReader
+input <- Get user input of integers
+stToken <- StringTokenizer object of input
+sum <- 0 => To print sum
+while(stToken contains tokens):
+	n <- next token
+	increment sum by n
+Print sum
+close the read object

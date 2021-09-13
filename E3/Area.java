@@ -2,8 +2,7 @@ abstract class Shape {
 	int l;
 	int b;
 
-	void printArea() {
-	}
+	abstract void printArea();
 }
 
 class Circle extends Shape {

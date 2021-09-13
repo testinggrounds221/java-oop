@@ -1,0 +1,27 @@
+Define class TicketReservation:
+	fromDate <- fromDate of Ticket
+	classType <- classType of Ticket
+	noOfPassengers <- noOfPassengers of Ticket
+	fare <- fare of Ticket
+	saved <- saved condition of Ticket
+	paid <- paid Condition of Ticket
+
+	calcFare():
+		distFare <- Fare for Distance
+		classFare <- Fare for Class
+		fare <- distFare + classFare
+	
+	payment():
+		Get Username from user
+		Get Password from user
+		Validate and confirm payment
+
+	printTicket():
+		print Tarriff,Departure,From,To,Class,No,Fare of Ticket
+
+	main:
+		stop <- false
+		ticket <- new TicketReservation object
+		gets input and Validate
+		calculate fare
+		print Fare

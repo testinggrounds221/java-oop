@@ -19,6 +19,6 @@ public class A4 {
 	}
 
 	public static void main(String args[]) {
-		A4 a = new A4();
+		// A4 a = new A4();
 	}
 }

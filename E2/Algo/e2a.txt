@@ -1,0 +1,10 @@
+file <- File object of input_file
+filereader <- FileReader object of file
+read <- BufferedReader Object of filereader
+
+line <- first line of read object
+count <- 1 => To Print line numbers
+while(line is not null):
+	print count and line
+	line = next line of read object
+close read object

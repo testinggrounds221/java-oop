@@ -6,6 +6,90 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch Marks",
+		"request": "launch",
+		"mainClass": "Marks",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch ElectricBillPayment",
+		"request": "launch",
+		"mainClass": "ElectricBillPayment",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Simple",
+		"request": "launch",
+		"mainClass": "packagesBasics.Simple",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch exp2c",
+		"request": "launch",
+		"mainClass": "exp2c",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch AirlineReservation",
+		"request": "launch",
+		"mainClass": "AirlineReservation",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch AreaRoom",
+		"request": "launch",
+		"mainClass": "AreaRoom",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch RoomArea",
+		"request": "launch",
+		"mainClass": "RoomArea",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch OnlineStudent",
+		"request": "launch",
+		"mainClass": "OnlineStudent",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch sumofin",
+		"request": "launch",
+		"mainClass": "sumofin",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch exp2a",
+		"request": "launch",
+		"mainClass": "exp2a",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch exp1a",
+		"request": "launch",
+		"mainClass": "exp1a",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch TicketReservation",
+		"request": "launch",
+		"mainClass": "TicketReservation",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch Area",
 		"request": "launch",
 		"mainClass": "Area",

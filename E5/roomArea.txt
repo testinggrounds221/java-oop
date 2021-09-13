@@ -1,0 +1,11 @@
+Deifne class AreaOverload:
+	Deifne calculateArea function for paramters:
+	int, int => Rectange
+	float => Circle
+	float, float => Triangle
+	int => Square
+
+main function:
+	Prompt user for different shapes
+	Call appropraite functions
+	Print area

@@ -1,0 +1,15 @@
+file <- File object of input_file
+read <- BufferedReader Object of file object
+lines, words, ch <- 0
+str <- Initial line of read object
+while str is not null:
+	increment line
+	wor = split str with delimeter " "	
+	increment words ny length of wor
+	for every word in wor:
+		increment ch by word
+	str <- next line
+
+print Number of characters as ch
+print Number of words as words
+print Number of lines as lines

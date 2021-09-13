@@ -1,0 +1,24 @@
+Import input packages.
+Define class Member:
+	name <- Name of Member
+	contactNo <- ContactNo of Member
+	institution <- Institution of Member
+	gender <- Gender of Member
+	email <- Email of Member
+
+	printDetails <- Prints the details of member
+
+Define class OnlineTeacher that extends Member:
+	dept <- dept of Teacher
+	rating <- rating of Teacher
+	printDetails <- Prints the details of Teacher	
+
+Define class OnlineStudent that extends Member:
+	paymentMethod <- paymentMethod of Student
+	occupation <- occupation of Student
+
+	printDetails <- Prints the details of student
+
+Creating objects for Member, OnlineTeacher, OnlineStudent.
+Calling printDetails of OnlineTeacher and OnlineStudent
+would Override printDetails of Member
