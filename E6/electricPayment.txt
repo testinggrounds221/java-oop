@@ -1,0 +1,16 @@
+Define package electricConsumption:
+    define interface ElectricityConsumption:
+        set baseAmount,secondLevelAmount,thirdLevelAmount,fourthLevelAmount as constants
+        declare getInput method,calculateBill(),processPayment(),printBill()
+
+Define class ElectricBillPayment that implements interface  ElectricityConsumption:
+    datamembers:
+        month, doorNo, unitsConsumed, amount, paid
+    member functions:
+
+Main function:  
+    Get Input from customer
+    Calculate invoice according to tariff
+    Print invoice
+    Process Payment
+    Print Bill

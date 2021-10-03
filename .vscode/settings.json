@@ -1,16 +1,19 @@
 {
   "java.project.sourcePaths": [
-    "refs",
-    "learn",
-    "String",
-    "Polymorphism",
-    "Objects",
-    "Inheritance",
-    "E5",
-    "E4",
-    "E3",
-    "E2",
-    "E1",
-    "E6"
-  ]
+	"refs",
+	"learn",
+	"String",
+	"Polymorphism",
+	"Objects",
+	"MiniProj",
+	"Inheritance",
+	"E7",
+	"E6",
+	"E5",
+	"E4",
+	"E3",
+	"E2",
+	"E1",
+	"Assignments"
+]
 }

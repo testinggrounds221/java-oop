@@ -1,0 +1,33 @@
+Define interface GradeSheet with:
+    Member functions:
+        printGradeCard(),getGradePoint(char c),getGradeInput(),calculateGPA()
+	calculateGPA():
+		try the block for errors:
+			sumCT <- credits * gradePoint for every enrolled course
+			gpa <- sumCT/sum of all credits
+		catch if exception occurs:
+			Print the exception	
+			exit
+	getGradeInput():
+		try the block for errors:
+			Get credits and marks for every course
+		catch if exception occurs:
+			Print the exception	
+			exit
+
+Define interface Tutee with:
+    Member functions:
+        getStudentInput() printStudentInfo()
+
+Define class GradeStudent that implements both GradeSheet and Scholar:
+    data Members:
+        sub_marks,credits,sub_grades,total,
+        overall_grade,no_crs,gpa,name,reg_no,in,
+    Member functions:
+        same as the implemented interfaces
+
+    Main function:
+        getStudentInput
+        getGradeInput
+        calculateGPA
+		printGradeCard

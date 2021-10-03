@@ -1,0 +1,7 @@
+Title: Built-in Exceptions and User defined Exceptions
+7.a ) Create “student attendance monitoring system”,
+	implement the hierarchical inheritance concept and
+	handle at least two appropriate user defined exceptions.
+7.b) Write a Java Program for student grade calculating system of a student
+	using multiple inheritance implemented through interface.
+	Use the exception handling mechanism wherever possible.

@@ -6,6 +6,55 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch Difference",
+		"request": "launch",
+		"mainClass": "Difference",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MyThread",
+		"request": "launch",
+		"mainClass": "MyThread",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MyClass",
+		"request": "launch",
+		"mainClass": "MyClass",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Program",
+		"request": "launch",
+		"mainClass": "Program",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch GradeStudent",
+		"request": "launch",
+		"mainClass": "GradeStudent",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch StudentGrade",
+		"request": "launch",
+		"mainClass": "StudentGrade",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch index",
+		"request": "launch",
+		"mainClass": "index",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch Marks",
 		"request": "launch",
 		"mainClass": "Marks",

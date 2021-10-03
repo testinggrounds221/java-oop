@@ -1,0 +1,20 @@
+Define interface GradeCard with:
+    Member functions:
+        printGradeCard(),getGradePoint(char c),getGradeInput(),calculateGPA()
+
+Define interface GradeCard with:
+    Member functions:
+        printGradeCard(),getGradePoint(char c),getGradeInput(),calculateGPA()
+
+Define class Marks that implements both GradeCard and Scholar:
+    data Members:
+        sub_marks,credits,sub_grades,total,
+        overall_grade,no_crs,gpa,name,reg_no,in,
+    Member functions:
+        same as the implemented interfaces
+
+    Main function:
+        getStudentInput
+        getGradeInput
+        calculateGPA
+		printGradeCard
