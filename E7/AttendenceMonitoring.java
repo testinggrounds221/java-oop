@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 class TimeTable {
 	String dept;
@@ -6,7 +7,6 @@ class TimeTable {
 	Scanner in;
 
 	TimeTable() {
-
 		dept = "";
 		in = new Scanner(System.in);
 	}
@@ -24,7 +24,7 @@ class TimeTable {
 class StudentRoll extends TimeTable {
 	String name;
 	String regNum;
-	int noOfWorkingDays;
+	int noOfHoursAttended;
 	int noOfODDays;
 	int noOfLeaveDays;
 
@@ -37,6 +37,10 @@ class StudentRoll extends TimeTable {
 		this.regNum = in.nextLine();
 	}
 
+	void markAttendence(String roll, String time) {
+		this.noOfHoursAttended++;
+	}
+
 	void displayStudentInfo() {
 		System.out.print("Department : " + this.dept);
 		System.out.print("Sem : " + this.sem);
@@ -44,7 +48,49 @@ class StudentRoll extends TimeTable {
 }
 
 public class AttendenceMonitoring extends TimeTable {
-	public static void main(String[] args) {
+	ArrayList<Entry> arrli;
 
+	void getInput() {
+		super.getInput();
+	}
+
+	AttendenceMonitoring() {
+		arrli = new ArrayList<Entry>(10);
+	}
+
+	class Entry {
+		String roll;
+		String time;
+
+		Entry(String roll, String time) {
+			this.roll = roll;
+			this.time = time;
+		}
+	}
+
+	void addEntry(String roll, String time) {
+		arrli.add(new Entry(roll, time));
+	}
+
+	void displayAllEntries() {
+		System.out.println("Attendence Register");
+
+		for (Entry entry : arrli) {
+			System.out.println("Roll Number : " + entry.roll);
+			System.out.println("Time Entered : " + entry.time);
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		AttendenceMonitoring am = new AttendenceMonitoring();
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter Roll Number :");
+		String roll = in.nextLine();
+		System.out.println("Enter time  :");
+		String time = in.nextLine();
+
+		am.addEntry(roll, time);
+		in.close();
 	}
 }

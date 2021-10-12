@@ -47,15 +47,27 @@ class Triangle extends Shape {
 }
 
 public class Area {
+
+	void printAbsArea(Shape sh) {
+		sh.printArea();
+	}
+
 	public static void main(String[] args) {
-		Rectangle rect = new Rectangle(1, 9);
-		rect.printArea();
 
-		Circle cir = new Circle(1);
-		cir.printArea();
+		Area absArea = new Area();
 
-		Triangle tri = new Triangle(1, 9);
-		tri.printArea();
+		// Rectangle rect = new Rectangle(1, 9);
+		// rect.printArea();
+
+		// Circle cir = new Circle(1);
+		// cir.printArea();
+
+		// Triangle tri = new Triangle(1, 9);
+		// tri.printArea(); This below lines instead of these
+
+		absArea.printAbsArea(new Rectangle(1, 9));
+		absArea.printAbsArea(new Circle(1));
+		absArea.printAbsArea(new Triangle(1, 9));
 
 	}
 }

@@ -1,21 +1,23 @@
+package com.mydomain;
+
 import java.util.Date;
 import java.io.*;
 
-// getFare -> cities, points //Overloading
-class Airline {
+class Train {
 	String name;
 	String tr_no;
+	int no_compartments;
 }
 
-class PassengerAirline extends Airline {
+class PassengerTrain extends Train {
 	int fromStation;
 	int toStation;
-	String[] airPorts = { "Madurai", "Washington DC", "Chicago", "Duabi" };
-	String[] classTypes = { "Economy Class", "Premium Economy", "Business Class", "First Class" };
+	String[] stations = { "Madurai", "Sivakasi", "Tirupur", "Chennai" };
+	String[] classTypes = { "Second Class AC", "Sleeper Class", "First Class", "AC Chair Car" };
 
 }
 
-public class AirlineReservation extends PassengerAirline {
+public class TicketReservation extends PassengerTrain {
 	Date fromDate;
 	int classType;
 	int noOfPassengers;
@@ -24,7 +26,7 @@ public class AirlineReservation extends PassengerAirline {
 	Boolean paid;
 	private BufferedReader in;
 
-	AirlineReservation() {
+	TicketReservation() {
 		in = new BufferedReader(new InputStreamReader(System.in));
 	}
 
@@ -32,26 +34,8 @@ public class AirlineReservation extends PassengerAirline {
 		in.close();
 	}
 
-	int getDistFare(int frmStat, int toStat) {
-		int distFare = Math.abs(frmStat - toStat) * 1000;
-		return distFare;
-	}
-
-	int getDistFare(String frmStat, String toStat) {
-		int distFare = Math.abs(getPoint(frmStat) - getPoint(toStat)) * 1000;
-		return distFare;
-	}
-
-	int getPoint(String airportName) {
-		for (int i = 0; i < this.airPorts.length; i++) {
-			if (this.airPorts[i].equals(airportName))
-				return i;
-		}
-		return -1;
-	}
-
 	int calcFare() {
-		int distFare = getDistFare(this.fromStation, this.toStation);
+		int distFare = Math.abs(this.fromStation - this.toStation) * 100;
 		int classFare = this.classType * 100;
 		this.fare = (classFare + distFare) * noOfPassengers;
 		return this.fare;
@@ -72,8 +56,8 @@ public class AirlineReservation extends PassengerAirline {
 	void printTicket() {
 		System.out.println("Tarriff");
 		System.out.println("Departure Date : \t\t" + this.fromDate);
-		System.out.println("From : \t\t" + airPorts[this.fromStation]);
-		System.out.println("To : \t\t" + airPorts[this.toStation]);
+		System.out.println("From : \t\t" + stations[this.fromStation]);
+		System.out.println("To : \t\t" + stations[this.toStation]);
 		System.out.println("Class Type : \t\t" + classTypes[classType]);
 		System.out.println("No Of Passengers : \t\t" + noOfPassengers);
 		System.out.println("Fare : \t\t" + fare);
@@ -91,20 +75,18 @@ public class AirlineReservation extends PassengerAirline {
 		System.out.println("Enter Date of Departure : (DD/MM/YY)");
 		String departDate = br.readLine();
 		System.out.println(departDate);
-
 		System.out.println("Enter From Station");
 		for (int i = 0; i < 4; i++) {
-			System.out.println(i + ". " + airPorts[i]);
+			System.out.println(i + ". " + stations[i]);
 		}
 		this.fromStation = Integer.parseInt(br.readLine());
 		if (0 > this.fromStation || this.fromStation > 3) {
 			System.out.println("Enter Within Range");
 			return this.saved;
 		}
-
 		System.out.println("Enter To Station");
 		for (int i = 0; i < 4; i++) {
-			System.out.println(i + ". " + airPorts[i]);
+			System.out.println(i + ". " + stations[i]);
 		}
 		this.toStation = Integer.parseInt(br.readLine());
 
@@ -113,7 +95,6 @@ public class AirlineReservation extends PassengerAirline {
 			System.out.println(i + ". " + classTypes[i]);
 		}
 		this.classType = Integer.parseInt(br.readLine());
-
 		System.out.println("Enter Number of Passengers : ");
 		this.noOfPassengers = Integer.parseInt(br.readLine());
 		this.saved = true;
@@ -122,41 +103,14 @@ public class AirlineReservation extends PassengerAirline {
 
 	public static void main(String[] args) throws IOException {
 		boolean stop = false;
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		AirlineReservation ticket = new AirlineReservation();
-		System.out.println("Enter 1 to Book Tickets");
-		System.out.println("Enter 2 to Get Fare Details");
-		int c = Integer.parseInt(br.readLine());
-		if (c == 1) {
-			while (!stop)
-				stop = ticket.getInput();
-			System.out.println("Your Fare is : ₹" + ticket.calcFare());
-			stop = false;
-			while (!stop)
-				stop = ticket.payTicket();
-			ticket.printTicket();
-		} else if (c == 2) {
-			System.out.println("Enter Enquiry First Airport");
-			String f = br.readLine();
-			System.out.println("Enter Enquiry Second Airport");
-			String l = br.readLine();
-			if (ticket.getPoint(f) == -1 || ticket.getPoint(l) == -1) {
-				System.out.println("Invalid Airport Names");
-			} else {
-				System.out.println("Distance Fare between " + f + " and " + l + " is " + ticket.getDistFare(f, l));
-			}
-
-		}
-
-		// if (ticket.payTicket()) {
-		// System.out.println("Payment Success");
-		// ticket.printTicket();
-		// System.exit(0);
-		// } else {
-		// System.out.println("Payment Failure");
-		// ticket.payTicket();
-		// }
-
+		TicketReservation ticket = new TicketReservation();
+		while (!stop)
+			stop = ticket.getInput();
+		System.out.println("Your Fare is : ₹" + ticket.calcFare());
+		stop = false;
+		while (!stop)
+			stop = ticket.payTicket();
+		ticket.printTicket();
 	}
 }
 

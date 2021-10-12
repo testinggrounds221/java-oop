@@ -1,3 +1,5 @@
+package src.com.mydomain;
+
 import java.util.Date;
 import java.io.*;
 

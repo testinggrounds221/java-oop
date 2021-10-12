@@ -1,3 +1,5 @@
+package com.mydomain;
+
 import java.util.Scanner;
 
 class Ward {

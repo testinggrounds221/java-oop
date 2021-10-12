@@ -1,3 +1,5 @@
+package com.mydomain;
+
 class Member {
 	String name;
 	String contactNo;
