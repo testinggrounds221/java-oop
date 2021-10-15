@@ -1,0 +1,33 @@
+Define class TimeTable with:
+    Member functions:
+        containsDigit(), getInput()
+	containsDigit(string):
+		returns true if strings contains Number
+	getInput():
+		try the block for errors:			
+			Get name and RegNum	
+		catch if exception occurs:
+			Print the exception	
+			exit
+
+Define class StudentRoll that extends TimeTable with:
+    Member functions:
+        markAttendence(), getInput(), displayStudentInfo()
+	getInput(string):
+		try the block for errors:
+			Get name and RegNum			
+	markAttendence():
+		increment noOfHoursAttended
+	displayStudentInfo():
+		Displays Student info
+
+Define class AttendenceMonitoring that extends TimeTable with:
+    Member functions:
+        addEntry(), getInput(), displayAllEntries()
+	getInput(string):
+		try the block for errors:
+			Get name and RegNum			
+	addEntry():
+		add Entry to entryList
+	displayAllEntries():
+		Prints all Entries

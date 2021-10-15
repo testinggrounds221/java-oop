@@ -1,10 +1,19 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 
 class TimeTable {
 	String dept;
 	String sem;
 	Scanner in;
+
+	static boolean containsDigit(String s) {
+		for (char c : s.toCharArray()) {
+			if (!Character.isDigit(c))
+				return false;
+		}
+		return true;
+	}
 
 	TimeTable() {
 		dept = "";
@@ -32,7 +41,9 @@ class StudentRoll extends TimeTable {
 		super.getInput();
 		System.out.print("Enter name : ");
 		this.name = in.nextLine();
-
+		if (containsDigit(name)) {
+			throw new InputMismatchException();
+		}
 		System.out.print("Enter regNum : ");
 		this.regNum = in.nextLine();
 	}
@@ -69,7 +80,11 @@ public class AttendenceMonitoring extends TimeTable {
 	}
 
 	void addEntry(String roll, String time) {
-		arrli.add(new Entry(roll, time));
+		try {
+			arrli.add(new Entry(roll, time));
+		} catch (Exception e) {
+			System.out.println("Cannot Add More Entries");
+		}
 	}
 
 	void displayAllEntries() {
@@ -87,10 +102,20 @@ public class AttendenceMonitoring extends TimeTable {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter Roll Number :");
 		String roll = in.nextLine();
+
 		System.out.println("Enter time  :");
 		String time = in.nextLine();
-
-		am.addEntry(roll, time);
 		in.close();
+		try {
+			if (!containsDigit(time)) {
+				throw new InputMismatchException();
+			}
+			am.addEntry(roll, time);
+			System.out.println("Added Entry");
+		} catch (InputMismatchException ime) {
+			System.out.println("No Characters allowed in Time.");
+			System.exit(-1);
+		}
+
 	}
 }

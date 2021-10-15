@@ -4,277 +4,284 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-	{
-		"type": "java",
-		"name": "Launch Difference",
-		"request": "launch",
-		"mainClass": "Difference",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch MyThread",
-		"request": "launch",
-		"mainClass": "MyThread",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch MyClass",
-		"request": "launch",
-		"mainClass": "MyClass",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Program",
-		"request": "launch",
-		"mainClass": "Program",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch GradeStudent",
-		"request": "launch",
-		"mainClass": "GradeStudent",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch StudentGrade",
-		"request": "launch",
-		"mainClass": "StudentGrade",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch index",
-		"request": "launch",
-		"mainClass": "index",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Marks",
-		"request": "launch",
-		"mainClass": "Marks",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch ElectricBillPayment",
-		"request": "launch",
-		"mainClass": "ElectricBillPayment",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Simple",
-		"request": "launch",
-		"mainClass": "packagesBasics.Simple",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch exp2c",
-		"request": "launch",
-		"mainClass": "exp2c",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch AirlineReservation",
-		"request": "launch",
-		"mainClass": "AirlineReservation",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch AreaRoom",
-		"request": "launch",
-		"mainClass": "AreaRoom",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch RoomArea",
-		"request": "launch",
-		"mainClass": "RoomArea",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch OnlineStudent",
-		"request": "launch",
-		"mainClass": "OnlineStudent",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch sumofin",
-		"request": "launch",
-		"mainClass": "sumofin",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch exp2a",
-		"request": "launch",
-		"mainClass": "exp2a",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch exp1a",
-		"request": "launch",
-		"mainClass": "exp1a",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch TicketReservation",
-		"request": "launch",
-		"mainClass": "TicketReservation",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Area",
-		"request": "launch",
-		"mainClass": "Area",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch ex1",
-		"request": "launch",
-		"mainClass": "ex1",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Student6",
-		"request": "launch",
-		"mainClass": "Student6",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch arithmetic",
-		"request": "launch",
-		"mainClass": "arithmetic",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch untitled",
-		"request": "launch",
-		"mainClass": "untitled",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Car",
-		"request": "launch",
-		"mainClass": "Car",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch TestStudent4",
-		"request": "launch",
-		"mainClass": "TestStudent4",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Bike2",
-		"request": "launch",
-		"mainClass": "Bike2",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch A4",
-		"request": "launch",
-		"mainClass": "A4",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch B",
-		"request": "launch",
-		"mainClass": "B",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch instanceSuper",
-		"request": "launch",
-		"mainClass": "instanceSuper",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch TestOverloading4",
-		"request": "launch",
-		"mainClass": "TestOverloading4",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Counter2",
-		"request": "launch",
-		"mainClass": "Counter2",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch TestPolymorphism",
-		"request": "launch",
-		"mainClass": "TestPolymorphism",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Grade",
-		"request": "launch",
-		"mainClass": "Grade",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch primeNumber",
-		"request": "launch",
-		"mainClass": "E1.primeNumber",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch primeNumber",
-		"request": "launch",
-		"mainClass": "primeNumber",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch fibonacci",
-		"request": "launch",
-		"mainClass": "fibonacci",
-		"projectName": "OOP_1795bc2c"
-	},
-	{
-		"type": "java",
-		"name": "Launch Current File",
-		"request": "launch",
-		"mainClass": "${file}"
-	},
-	{
-		"type": "java",
-		"name": "Launch demonstration",
-		"request": "launch",
-		"mainClass": "demonstration",
-		"projectName": "OOP_1795bc2c"
-	}
-]
+    {
+      "type": "java",
+      "name": "Launch AttendenceMonitoring",
+      "request": "launch",
+      "mainClass": "AttendenceMonitoring",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Difference",
+      "request": "launch",
+      "mainClass": "Difference",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch MyThread",
+      "request": "launch",
+      "mainClass": "MyThread",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch MyClass",
+      "request": "launch",
+      "mainClass": "MyClass",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Program",
+      "request": "launch",
+      "mainClass": "Program",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch GradeStudent",
+      "request": "launch",
+      "mainClass": "GradeStudent",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch StudentGrade",
+      "request": "launch",
+      "mainClass": "StudentGrade",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch index",
+      "request": "launch",
+      "mainClass": "index",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Marks",
+      "request": "launch",
+      "mainClass": "Marks",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch ElectricBillPayment",
+      "request": "launch",
+      "mainClass": "ElectricBillPayment",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Simple",
+      "request": "launch",
+      "mainClass": "packagesBasics.Simple",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch exp2c",
+      "request": "launch",
+      "mainClass": "exp2c",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch AirlineReservation",
+      "request": "launch",
+      "mainClass": "AirlineReservation",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaRoom",
+      "request": "launch",
+      "mainClass": "AreaRoom",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch RoomArea",
+      "request": "launch",
+      "mainClass": "RoomArea",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch OnlineStudent",
+      "request": "launch",
+      "mainClass": "OnlineStudent",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch sumofin",
+      "request": "launch",
+      "mainClass": "sumofin",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch exp2a",
+      "request": "launch",
+      "mainClass": "exp2a",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch exp1a",
+      "request": "launch",
+      "mainClass": "exp1a",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch TicketReservation",
+      "request": "launch",
+      "mainClass": "TicketReservation",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Area",
+      "request": "launch",
+      "mainClass": "Area",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch ex1",
+      "request": "launch",
+      "mainClass": "ex1",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Student6",
+      "request": "launch",
+      "mainClass": "Student6",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch arithmetic",
+      "request": "launch",
+      "mainClass": "arithmetic",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch untitled",
+      "request": "launch",
+      "mainClass": "untitled",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Car",
+      "request": "launch",
+      "mainClass": "Car",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestStudent4",
+      "request": "launch",
+      "mainClass": "TestStudent4",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bike2",
+      "request": "launch",
+      "mainClass": "Bike2",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch A4",
+      "request": "launch",
+      "mainClass": "A4",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch B",
+      "request": "launch",
+      "mainClass": "B",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch instanceSuper",
+      "request": "launch",
+      "mainClass": "instanceSuper",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestOverloading4",
+      "request": "launch",
+      "mainClass": "TestOverloading4",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Counter2",
+      "request": "launch",
+      "mainClass": "Counter2",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestPolymorphism",
+      "request": "launch",
+      "mainClass": "TestPolymorphism",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Grade",
+      "request": "launch",
+      "mainClass": "Grade",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeNumber",
+      "request": "launch",
+      "mainClass": "E1.primeNumber",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeNumber",
+      "request": "launch",
+      "mainClass": "primeNumber",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch fibonacci",
+      "request": "launch",
+      "mainClass": "fibonacci",
+      "projectName": "OOP_1795bc2c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch demonstration",
+      "request": "launch",
+      "mainClass": "demonstration",
+      "projectName": "OOP_1795bc2c"
+    }
+  ]
 }
