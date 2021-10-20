@@ -2,11 +2,13 @@
   "java.project.sourcePaths": [
 	"refs",
 	"learn",
+	"Threads",
 	"String",
 	"Polymorphism",
 	"Objects",
 	"MiniProj",
 	"Inheritance",
+	"Exceptions",
 	"E7",
 	"E6",
 	"E5",
@@ -15,6 +17,6 @@
 	"E2",
 	"E1",
 	"Assignments",
-	"Threads"
+	"E8"
 ]
 }

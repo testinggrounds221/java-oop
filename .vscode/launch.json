@@ -6,6 +6,62 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch PrintThreadsSequentiallyMain",
+		"request": "launch",
+		"mainClass": "PrintThreadsSequentiallyMain",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch AlternateNumbers",
+		"request": "launch",
+		"mainClass": "AlternateNumbers",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch OddEvenPrintMain",
+		"request": "launch",
+		"mainClass": "OddEvenPrintMain",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch TestDeadlockExample1",
+		"request": "launch",
+		"mainClass": "TestDeadlockExample1",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch RandomNumber",
+		"request": "launch",
+		"mainClass": "RandomNumber",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Basic1",
+		"request": "launch",
+		"mainClass": "Basic1",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch isalive",
+		"request": "launch",
+		"mainClass": "isalive",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch threadexample",
+		"request": "launch",
+		"mainClass": "threadexample",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch Phones",
 		"request": "launch",
 		"mainClass": "Phones",

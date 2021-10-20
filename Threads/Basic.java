@@ -6,7 +6,7 @@ class MyTask {
 	}
 }
 
-class MyThreadedTaskRunnable implements Runnable { // OPEN UP TIS BIATCH
+class RunnableClass implements Runnable { // OPEN UP TIS BIATCH
 	@Override
 	public void run() {
 		for (int i = 0; i < 10; i++) {
@@ -15,7 +15,7 @@ class MyThreadedTaskRunnable implements Runnable { // OPEN UP TIS BIATCH
 	}
 }
 
-class MyTHreadedTask extends Thread {
+class MyThreadedTask extends Thread {
 	@Override
 	public void run() {
 		for (int i = 0; i < 10; i++) {
@@ -44,17 +44,16 @@ public class Basic {
 		// Sluggish Behaviour => Hang
 		// Long Running op inside main method
 
-		Runnable thrdTskObj = new MyThreadedTaskRunnable();
+		Thread runnableThread = new Thread(new RunnableClass(), "My Thread Krish");
 
-		Thread runnableThread = new Thread(thrdTskObj);
 		runnableThread.start();
-		runnableThread.join();
-		MyTHreadedTask thread = new MyTHreadedTask();
+		// runnableThread.join();
+		MyThreadedTask thread = new MyThreadedTask();
 		thread.start();
 
-		// for (int i = 0; i < 10; i++) {
-		// System.out.println("!!!Printing File " + i + " - Printer 1!!!");
-		// }
+		for (int i = 0; i < 10; i++) {
+			System.out.println("!!!Printing File " + i + " - Printer 1!!!");
+		}
 
 		// Runnable dt = new DaemonThread();
 
