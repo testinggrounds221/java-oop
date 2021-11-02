@@ -7,13 +7,13 @@ public class OddEvenPrintMain {
 	public void printOdd() {
 		synchronized (this) {
 			while (count < MAX) {
-				// System.out.println("Checking odd loop");
+				System.out.println("Checking odd loop");
 
 				while (!odd) {
 					try {
-						// System.out.println("Odd waiting : " + count);
+						System.out.println("Odd waiting : " + count);
 						wait();
-						// System.out.println("Notified odd :" + count);
+						System.out.println("Notified odd :" + count);
 					} catch (Exception e) {
 
 					}
@@ -34,13 +34,13 @@ public class OddEvenPrintMain {
 		}
 		synchronized (this) {
 			while (count < MAX) {
-				// System.out.println("Checking even loop");
+				System.out.println("Checking even loop");
 
 				while (odd) {
 					try {
-						// System.out.println("Even waiting: " + count);
+						System.out.println("Even waiting: " + count);
 						wait();
-						// System.out.println("Notified even:" + count);
+						System.out.println("Notified even:" + count);
 					} catch (Exception e) {
 
 					}

@@ -6,6 +6,20 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch EBBillGeneration",
+		"request": "launch",
+		"mainClass": "EBBillGeneration",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Q6OnlineShopping",
+		"request": "launch",
+		"mainClass": "assignment2.Q6OnlineShopping",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch TicketReservation",
 		"request": "launch",
 		"mainClass": "assignment2.ticketbooking.TicketReservation",

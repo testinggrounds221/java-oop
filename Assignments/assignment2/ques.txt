@@ -25,7 +25,7 @@ Apply package concepts wherever possible.
 DONE5. Implement hierarchical inheritance and at least three exception handling mechanism
 for student attendance monitoring system
 
-6. Implement exception handling and multi-threading concepts for online shopping
+DONE6. Implement exception handling and multi-threading concepts for online shopping
 System
 
 4. Implement appropriate inheritance and multithreading concept for EB bill generation
