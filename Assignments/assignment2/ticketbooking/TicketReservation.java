@@ -1,4 +1,4 @@
-package src.com.mydomain;
+package assignment2.ticketbooking;
 
 import java.util.Date;
 import java.io.*;
@@ -14,7 +14,6 @@ class PassengerTrain extends Train {
 	int toStation;
 	String[] stations = { "Madurai", "Sivakasi", "Tirupur", "Chennai" };
 	String[] classTypes = { "Second Class AC", "Sleeper Class", "First Class", "AC Chair Car" };
-
 }
 
 public class TicketReservation extends PassengerTrain {
@@ -50,7 +49,6 @@ public class TicketReservation extends PassengerTrain {
 		String pss = in.readLine().toString();
 		this.paid = usr.compareTo(pss) == 0;
 		return this.paid;
-		// return true;
 	}
 
 	void printTicket() {
@@ -66,7 +64,6 @@ public class TicketReservation extends PassengerTrain {
 			System.out.println("Complete");
 		else
 			System.out.println("Incomplete");
-
 	}
 
 	boolean getInput() throws IOException {
@@ -102,6 +99,7 @@ public class TicketReservation extends PassengerTrain {
 	}
 
 	public static void main(String[] args) throws IOException {
+
 		boolean stop = false;
 		TicketReservation ticket = new TicketReservation();
 		while (!stop)
@@ -111,5 +109,18 @@ public class TicketReservation extends PassengerTrain {
 		while (!stop)
 			stop = ticket.payTicket();
 		ticket.printTicket();
+
+		Thread bThread = new Thread(new BookTicket(ticket));
+		Thread cThread = new Thread(new CancelTicket(ticket));
+
+		bThread.start();
+		cThread.start();
+
+		try {
+			bThread.join();
+			cThread.join();
+		} catch (Exception e) {
+
+		}
 	}
 }

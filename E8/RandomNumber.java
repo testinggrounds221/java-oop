@@ -9,20 +9,21 @@ class MyNumber {
 }
 
 public class RandomNumber {
-	static boolean check;
+
 	static int count;
+	static int current;
 
 	public static void main(String[] args) {
+		current = 1;
 		Random ran = new Random();
 		MyNumber myNum = new MyNumber(1);
-		Object lock = new Object();
 		count = 1;
-		check = false;
+
 		Thread t1 = new Thread() {
 			public void run() {
-				synchronized (lock) {
+				synchronized (this) {
 					while (count < 10) {
-						while (check) {
+						while (current != 1) {
 							try {
 								wait();
 							} catch (Exception e) {
@@ -30,9 +31,9 @@ public class RandomNumber {
 						}
 						myNum.value = ran.nextInt(100);
 						System.out.println("Generated Number is " + myNum.value);
-						check = true;
 						count++;
-						lock.notify();
+						current = 2;
+						notify();
 					}
 
 				}
@@ -46,11 +47,10 @@ public class RandomNumber {
 				try {
 					Thread.sleep(1000);
 				} catch (Exception e) {
-					// TODO: handle exception
 				}
 				synchronized (this) {
 					while (count < 10) {
-						while (!check) {
+						while (current != 2) {
 							try {
 								wait();
 							} catch (Exception e) {
@@ -58,8 +58,9 @@ public class RandomNumber {
 						}
 						if (myNum.value % 2 == 0) {
 							System.out.println("Square is " + myNum.value * myNum.value);
-							check = false;
+
 						}
+						current = 3;
 						notify();
 					}
 
@@ -75,7 +76,7 @@ public class RandomNumber {
 				}
 				synchronized (this) {
 					while (count < 10) {
-						while (!check) {
+						while (current != 3) {
 							try {
 								wait();
 							} catch (Exception e) {
@@ -84,8 +85,9 @@ public class RandomNumber {
 						}
 						if (myNum.value % 2 != 0) {
 							System.out.println("Cube is " + (myNum.value * myNum.value * myNum.value));
-							check = false;
+
 						}
+						current = 1;
 						notify();
 					}
 

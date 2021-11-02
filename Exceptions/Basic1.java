@@ -28,6 +28,7 @@ public class Basic1 {
 			System.out.println(e);
 		} finally {
 			System.out.println("After error");
+			sc.close();
 		}
 		System.out.println("After TRY");
 		sc.close();

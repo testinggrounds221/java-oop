@@ -1,0 +1,35 @@
+DONE1. Demonstrate 
+user defined exception that handles NegativeValueException and
+InvalidVehicleNoException for the vehicle – 
+Service Billing Automation System.
+The system contains the following attributes: Vehicle_model, vehicle_no,
+spare_parts_details, spare_parts_price, water_service_charge, oil_service_charge. DONE
+ 
+
+DONE2. Apply multi thread programming concept to demonstrate how threads are running
+with different priority value. Assume any real time application to illustrate the above.
+
+DONE3. Demonstrate inter-thread communication between ticket booking and cancellation in
+“Bus Reservation System”. Assume appropriate members and member functions.
+
+DONE8. Implement 
+thread synchronization concept
+in ticket booking and cancellation methods
+of Train Ticket Reservation System.
+Set the thread priorities and
+Print the thread name
+along with its priority values.
+Apply package concepts wherever possible.
+
+
+DONE5. Implement hierarchical inheritance and at least three exception handling mechanism
+for student attendance monitoring system
+
+6. Implement exception handling and multi-threading concepts for online shopping
+System
+
+4. Implement appropriate inheritance and multithreading concept for EB bill generation
+System
+
+7. Apply inter thread communication concept and user defined exceptions for Gas bill
+generation System

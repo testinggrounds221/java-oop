@@ -1,0 +1,8 @@
+1.	loop through 1 to 10:
+		1.	num <- Generate a random number
+
+		2.	if num is even:
+			Start a thread that prints "Square of " num is num * num
+			
+		3.	if num is odd:
+			Start a thread that prints "Cube of " num is num * num * num

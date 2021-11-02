@@ -6,6 +6,125 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch TicketReservation",
+		"request": "launch",
+		"mainClass": "assignment2.ticketbooking.TicketReservation",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch BookTicket",
+		"request": "launch",
+		"mainClass": "assignment2.ticketbooking.BookTicket",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Q2PriorityThread",
+		"request": "launch",
+		"mainClass": "assignment2.Q2PriorityThread",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch ServiceBillingAutomationSystem",
+		"request": "launch",
+		"mainClass": "assignment2.ServiceBillingAutomationSystem",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch QuickSort",
+		"request": "launch",
+		"mainClass": "QuickSort",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch PhoneDB",
+		"request": "launch",
+		"mainClass": "PhoneDB",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Phonebook",
+		"request": "launch",
+		"mainClass": "Phonebook",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Deadlock",
+		"request": "launch",
+		"mainClass": "Deadlock",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Random_Number",
+		"request": "launch",
+		"mainClass": "Random_Number",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MultiThread",
+		"request": "launch",
+		"mainClass": "MultiThread",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MultiThreadPrint",
+		"request": "launch",
+		"mainClass": "MultiThreadPrint",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MultipleReturns",
+		"request": "launch",
+		"mainClass": "MultipleReturns",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch TicketBooking",
+		"request": "launch",
+		"mainClass": "TicketBooking",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Priority",
+		"request": "launch",
+		"mainClass": "Priority",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch ThreadDemo",
+		"request": "launch",
+		"mainClass": "presentation.ThreadDemo",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Main",
+		"request": "launch",
+		"mainClass": "presentation.Main",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch CurrentThreadDemo",
+		"request": "launch",
+		"mainClass": "presentation.CurrentThreadDemo",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch PrintThreadsSequentiallyMain",
 		"request": "launch",
 		"mainClass": "PrintThreadsSequentiallyMain",

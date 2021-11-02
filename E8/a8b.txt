@@ -1,0 +1,15 @@
+START
+Define Resource r1, r2
+
+Create a thread t1:
+	lock r1
+	Sleep for 100ms
+	lock r2
+
+Create a thread t1:
+	lock r2
+	Sleep for 100ms
+	lock r1
+
+t1.start()
+t2.start()

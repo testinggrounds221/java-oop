@@ -1,3 +1,5 @@
+package old;
+
 class privateDemo {
 	final int var = 92;
 

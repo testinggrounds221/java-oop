@@ -137,6 +137,7 @@ public class threadexample {
 
 				// Sleep
 				Thread.sleep(3000);
+				s.close();
 			}
 		}
 	}

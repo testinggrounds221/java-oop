@@ -10,7 +10,7 @@ public class AlternateNumbers {
 					try {
 						wait();
 					} catch (Exception e) {
-						// TODO: handle exception
+
 					}
 				}
 				System.out.println(count++);
@@ -33,7 +33,7 @@ public class AlternateNumbers {
 					try {
 						wait();
 					} catch (Exception e) {
-						// TODO: handle exception
+
 					}
 				}
 				System.out.println(count++);

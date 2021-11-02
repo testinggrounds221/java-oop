@@ -1,8 +1,7 @@
 Exp. No: 8
 Title: Threads
 
-8.a) Write a java program that implements a multi-thread application that has
-three threads.
+8.a) Write a java program that implements a multi-thread application that has three threads.
 
 	First thread generates random integer every 1 second and
 	

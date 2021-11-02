@@ -15,7 +15,6 @@ public class OddEvenPrintMain {
 						wait();
 						// System.out.println("Notified odd :" + count);
 					} catch (Exception e) {
-						// TODO Auto-generated catch block
 
 					}
 				}

@@ -13,7 +13,7 @@ class PrintSequenceRunnable implements Runnable {
 	public void run() {
 		while (number < PRINT_NUMBERS_UPTO - 1) {
 			synchronized (lock) {
-				while (number % 2 != remainder) { // wait for numbers other than remainder
+				while (number % 3 != remainder) { // wait for numbers other than remainder
 					try {
 						lock.wait();
 					} catch (InterruptedException e) {
@@ -41,6 +41,6 @@ public class PrintThreadsSequentiallyMain {
 
 		t1.start();
 		t2.start();
-		// t3.start();
+		t3.start();
 	}
 }

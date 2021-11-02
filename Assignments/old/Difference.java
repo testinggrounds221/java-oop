@@ -1,3 +1,4 @@
+package old;
 // class PrivateClass {
 // private int var;
 
