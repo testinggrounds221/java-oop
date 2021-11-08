@@ -6,6 +6,13 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch exp2b",
+		"request": "launch",
+		"mainClass": "exp2b",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch EBBillGeneration",
 		"request": "launch",
 		"mainClass": "EBBillGeneration",
