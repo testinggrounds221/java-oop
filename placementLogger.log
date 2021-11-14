@@ -1,0 +1,30 @@
+Nov 14, 2021 1:03:30 PM PlacementSystem conductOrientation
+FINER: Orientation Started 
+Nov 14, 2021 1:03:30 PM PlacementSystem conductOrientation
+FINER: Orientation Completed
+Nov 14, 2021 1:03:30 PM PlacementSystem startTraining
+FINE: Training Started
+Nov 14, 2021 1:03:31 PM PlacementSystem startTraining
+FINE: Training Completed
+Nov 14, 2021 1:03:31 PM PlacementSystem getInput
+SEVERE: Getting Candidate Details
+Nov 14, 2021 1:03:41 PM PlacementSystem colllectResume
+SEVERE: Submit Resume of Candidate 20IT092: 
+Nov 14, 2021 1:03:41 PM PlacementSystem colllectResume
+INFO: Resume Collected for Candidate 20IT092: 
+Nov 14, 2021 1:03:41 PM PlacementSystem checkEligibiltyCategory
+FINER: 20IT092 Initially Elegible for Category 1
+Nov 14, 2021 1:03:41 PM PlacementSystem sendDataToIndustry
+FINEST: Sending candidate Data to industries
+Nov 14, 2021 1:03:42 PM PlacementSystem conductInterview
+INFO: Conducting interview for candidate 20IT092
+Nov 14, 2021 1:03:42 PM PlacementSystem conductInterview
+FINE: Conducting for Category 1
+Nov 14, 2021 1:03:42 PM PlacementSystem conductInterview
+FINE: Inteview Completed 20IT092
+Nov 14, 2021 1:03:42 PM PlacementSystem receiveAppoinmentOrders
+INFO: 20IT092 Cleared Category 1
+Nov 14, 2021 1:03:42 PM PlacementSystem receiveAppoinmentOrders
+INFO: 20IT092 Placed in Super Dream
+Nov 14, 2021 1:03:42 PM PlacementSystem receiveAppoinmentOrders
+INFO: 20IT092 Quit Placement

@@ -6,6 +6,41 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch tryMathRAndom",
+		"request": "launch",
+		"mainClass": "tryMathRAndom",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch PlacementSystem",
+		"request": "launch",
+		"mainClass": "PlacementSystem",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch TestFileLogger",
+		"request": "launch",
+		"mainClass": "reference.TestFileLogger",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch TestSimpleLogger",
+		"request": "launch",
+		"mainClass": "reference.TestSimpleLogger",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch logReport1",
+		"request": "launch",
+		"mainClass": "reference.logReport1",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch exp2b",
 		"request": "launch",
 		"mainClass": "exp2b",
