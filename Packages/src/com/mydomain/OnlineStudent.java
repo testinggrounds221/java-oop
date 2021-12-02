@@ -1,4 +1,4 @@
-package com.mydomain;
+package Packages.src.com.mydomain;
 
 class Member {
 	String name;

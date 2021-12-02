@@ -1,4 +1,4 @@
-package com.mydomain;
+package Packages.src.com.mydomain;
 
 import java.util.Scanner;
 
@@ -44,27 +44,27 @@ public class StudentGrade extends Ward {
 	int getGradePoint(char c) {
 		int gp = 0;
 		switch (c) {
-			case 'S':
-				gp = 10;
-				break;
-			case 'A':
-				gp = 9;
-				break;
-			case 'B':
-				gp = 8;
-				break;
-			case 'C':
-				gp = 7;
-				break;
-			case 'D':
-				gp = 6;
-				break;
-			case 'U':
-				gp = 0;
-				break;
-			default:
-				System.out.println("No StudentGrade point");
-				break;
+		case 'S':
+			gp = 10;
+			break;
+		case 'A':
+			gp = 9;
+			break;
+		case 'B':
+			gp = 8;
+			break;
+		case 'C':
+			gp = 7;
+			break;
+		case 'D':
+			gp = 6;
+			break;
+		case 'U':
+			gp = 0;
+			break;
+		default:
+			System.out.println("No StudentGrade point");
+			break;
 		}
 		return gp;
 	}

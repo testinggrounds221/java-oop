@@ -1,0 +1,14 @@
+Dec 02, 2021 6:50:21 PM assgn3.OnlineBusTicket getInput
+FINE: Ticket Details :
+Dec 02, 2021 6:50:21 PM assgn3.OnlineBusTicket getInput
+FINE: 12/2/2022
+Dec 02, 2021 6:50:21 PM assgn3.OnlineBusTicket getInput
+FINE: Canacona Bus Station - Shiroda Bus Stand
+Dec 02, 2021 6:50:21 PM assgn3.OnlineBusTicket getInput
+FINE: Category 4
+Dec 02, 2021 6:50:21 PM assgn3.OnlineBusTicket main
+FINEST: Calculated Fare : Re.4600.0
+Dec 02, 2021 6:50:26 PM assgn3.Account debitAmount
+WARNING: Insufficient Balance
+Dec 02, 2021 6:50:26 PM assgn3.OnlineBusTicket payTicket
+WARNING: Transaction Error

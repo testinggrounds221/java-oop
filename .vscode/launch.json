@@ -6,6 +6,104 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch GameDB",
+		"request": "launch",
+		"mainClass": "assgn3.GameDB",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch FindDuplicate",
+		"request": "launch",
+		"mainClass": "Collections.Sets.FindDuplicate",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch CourseFeedback",
+		"request": "launch",
+		"mainClass": "assgn3.CourseFeedback",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch JAVASwingFormExample",
+		"request": "launch",
+		"mainClass": "assignment2.JAVASwingFormExample.JAVASwingFormExample",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch OnlineBusTicket",
+		"request": "launch",
+		"mainClass": "assgn3.OnlineBusTicket",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch AirlineReservation",
+		"request": "launch",
+		"mainClass": "src.AirlineReservation",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MyCalc",
+		"request": "launch",
+		"mainClass": "E11.MyCalc",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch ShapesApplet",
+		"request": "launch",
+		"mainClass": "E11.ShapesApplet",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch FactorialApplet",
+		"request": "launch",
+		"mainClass": "E11.FactorialApplet",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Factorial",
+		"request": "launch",
+		"mainClass": "E11.Factorial",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Sample",
+		"request": "launch",
+		"mainClass": "E11.Sample",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Calculator",
+		"request": "launch",
+		"mainClass": "E11.Calculator",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch evaluate",
+		"request": "launch",
+		"mainClass": "MISC.Kmbu.evaluate",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch StudentDuplicate",
+		"request": "launch",
+		"mainClass": "Lab.StudentDuplicate",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch tryMathRAndom",
 		"request": "launch",
 		"mainClass": "tryMathRAndom",

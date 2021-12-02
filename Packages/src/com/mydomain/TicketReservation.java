@@ -1,4 +1,4 @@
-package com.mydomain;
+package Packages.src.com.mydomain;
 
 import java.util.Date;
 import java.io.*;
