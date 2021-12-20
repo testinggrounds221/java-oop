@@ -1,3 +1,11 @@
-1.	BlueJ Methods and Functions -> Classes
-2.	Polymorphism -> Interface/Abstract Classes
-3.	
+CAT 1 Portions : Object Oriented Programming Concepts: 
+object-oriented paradigm,
+methods, classes and instances,
+data types, arrays, control structures, looping statements,
+type conversion and casting,
+Constructors, overloading
+constructors, encapsulation, polymorphism, inheritance,  Dynamic Method Dispatch, interface
+
+
+I/O – Reading and Writing Files,
+Dynamic Method Dispatch

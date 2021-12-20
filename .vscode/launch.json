@@ -6,6 +6,48 @@
   "configurations": [
 	{
 		"type": "java",
+		"name": "Launch OddEvenThread",
+		"request": "launch",
+		"mainClass": "OddEvenThread",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch DeadlockP",
+		"request": "launch",
+		"mainClass": "DeadlockP",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch MapExample1",
+		"request": "launch",
+		"mainClass": "Collections.Sets.MapExample1",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch conditionalRemove",
+		"request": "launch",
+		"mainClass": "Collections.Sets.conditionalRemove",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Factorial",
+		"request": "launch",
+		"mainClass": "Factorial",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
+		"name": "Launch Radio",
+		"request": "launch",
+		"mainClass": "Radio",
+		"projectName": "OOP_1795bc2c"
+	},
+	{
+		"type": "java",
 		"name": "Launch GameDB",
 		"request": "launch",
 		"mainClass": "assgn3.GameDB",
